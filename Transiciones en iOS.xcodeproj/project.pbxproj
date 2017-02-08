@@ -12,6 +12,8 @@
 		FB76FE1F1E4A9D4300D8E571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB76FE1D1E4A9D4300D8E571 /* Main.storyboard */; };
 		FB76FE211E4A9D4300D8E571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB76FE201E4A9D4300D8E571 /* Assets.xcassets */; };
 		FB76FE241E4A9D4300D8E571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB76FE221E4A9D4300D8E571 /* LaunchScreen.storyboard */; };
+		FB76FE301E4AA7C700D8E571 /* ModallyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB76FE2F1E4AA7C700D8E571 /* ModallyViewController.swift */; };
+		FB76FE321E4AA8A000D8E571 /* ShowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB76FE311E4AA8A000D8E571 /* ShowDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FB76FE201E4A9D4300D8E571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB76FE231E4A9D4300D8E571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB76FE251E4A9D4300D8E571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB76FE2F1E4AA7C700D8E571 /* ModallyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModallyViewController.swift; sourceTree = "<group>"; };
+		FB76FE311E4AA8A000D8E571 /* ShowDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		FB76FE0D1E4A9D4300D8E571 = {
 			isa = PBXGroup;
 			children = (
+				FB76FE2F1E4AA7C700D8E571 /* ModallyViewController.swift */,
 				FB76FE181E4A9D4300D8E571 /* Transiciones en iOS */,
 				FB76FE171E4A9D4300D8E571 /* Products */,
 			);
@@ -57,6 +62,7 @@
 				FB76FE191E4A9D4300D8E571 /* AppDelegate.swift */,
 				FB76FE1B1E4A9D4300D8E571 /* ViewController.swift */,
 				FB76FE1D1E4A9D4300D8E571 /* Main.storyboard */,
+				FB76FE311E4AA8A000D8E571 /* ShowDetailViewController.swift */,
 				FB76FE201E4A9D4300D8E571 /* Assets.xcassets */,
 				FB76FE221E4A9D4300D8E571 /* LaunchScreen.storyboard */,
 				FB76FE251E4A9D4300D8E571 /* Info.plist */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB76FE321E4AA8A000D8E571 /* ShowDetailViewController.swift in Sources */,
 				FB76FE1C1E4A9D4300D8E571 /* ViewController.swift in Sources */,
+				FB76FE301E4AA7C700D8E571 /* ModallyViewController.swift in Sources */,
 				FB76FE1A1E4A9D4300D8E571 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
